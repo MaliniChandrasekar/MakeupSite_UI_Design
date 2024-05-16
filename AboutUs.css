@@ -1,0 +1,263 @@
+.Mainheader{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to right, white, pink, violet, purple);
+    /* background-color: white; */
+    position: fixed;
+    top: 4%;
+}
+.first{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 4vh;
+    background-color: black;
+    display: flex;
+    
+}
+.common{
+    display: flex;
+    width: 70px;
+    
+}
+.dot1{
+    position: fixed;
+    top: 8px;
+    left: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 3px;
+    width: 3px;
+    background-color: red;
+}
+.text1{
+    color: white;
+    position: fixed;
+    top: 4px;
+    right: 285px;
+    font-size: 14px;
+}
+.no{
+    position: fixed;
+    top: 5px;
+    right: 100px;
+}
+.dot2{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 3px;
+    width: 3px;
+    position: fixed;
+    top: 8px;
+    left: 35px;
+    background-color: yellow;
+}
+.dot3{
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 3px;
+    width: 3px;
+    position: fixed;
+    top: 8px;
+    left: 50px;
+    background-color: green;
+}
+.text{
+    color: white;
+    position: fixed;
+    top: 4px;
+    left: 70px;
+    font-size: 15px;
+}
+.Book:hover{
+    background-color: white;
+    border: 2px solid white;
+}
+.Book{
+    text-decoration: none;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+    padding: 3px;
+    position: fixed;
+    top: 1px;
+    right: 15px;
+    background-color: skyblue;
+    color: black;
+}
+.studio{
+    position: fixed;
+    top: 100px;
+    left: 34px;
+    font-size: 20px;
+}
+.name{
+    color: purple;
+    font-family: satisfy;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    font-style: italic;
+    font-size: 25px;
+}
+.header{
+    flex-wrap: wrap;
+    height: 65px;
+    align-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+}
+.home:hover{
+    background:linear-gradient(to right,violet, purple);
+}
+.home{
+    /* font-weight: bold; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    /* background-color:black; */
+    color:white;
+    text-decoration: none;
+    font-family:Lobster ;
+    font-size: 25px;
+    border-radius: 20px;
+ 
+}
+.AboutUs{
+    background-color:purple;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Service{
+    /* background-color:black; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    transition: width 0.5s;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Combos{
+    /* background-color:black; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Website{
+    /* background-color:black; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Location{
+    /* background-color:black; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.Feedback{
+    /* background-color:black; */
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    font-family: Lobster;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+.AboutUs:hover{
+    background:linear-gradient(to right,violet, purple);
+}
+.Service:hover{
+    background:linear-gradient(to right,pink, purple);
+}
+.Combos:hover{
+    background:linear-gradient(to right,pink, purple);
+}
+.Location:hover{
+    background:linear-gradient(to right,pink, violet);
+}
+.ContactUs:hover{
+    background:linear-gradient(to right,violet, purple);
+}
+.Feedback:hover{
+    background:linear-gradient(to right,violet, pink);
+}
+.Website:hover{
+    background:linear-gradient(to right,pink, purple);
+}
+.A1{
+    float: left;
+}
+.A2{
+    font-family: satisfy;
+    text-align: start;
+    font-weight: bold;
+    color: mediumorchid;
+    font-size: 30px;
+}
+.A3{
+    font-family: Lobster;
+    color: mediumorchid;
+    font-size: 25px;
+}
+.kk{
+    font-weight: bold;
+    color: darkblue;
+    font-family: satisfy;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+    clear: left;
+    text-align: center;
+}
+.container{
+    clear: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Num{
+    box-shadow: 7px 7px 7px violet;
+    font-family: Lobster;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 80px;
+    color: purple;
+    background-color: pink;
+    border: 3px solid pink;
+    border-radius: 20px;
+}
